@@ -1,0 +1,15 @@
+Package: tbis
+Type: Package
+Title: Tools for Business Indirect Sampling
+Version: 0.1.0
+Author: Henri Bodet & Arnaud Fizzala
+Maintainer: Arnaud Fizzala <arnaud.fizzala@insee.fr> & Henri Bodet <henri.bodet@insee.fr>
+Description: There are 3 functions usefull to apply Business Indirect Sampling methodology. More details in JMS 2022
+License: gpl-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
