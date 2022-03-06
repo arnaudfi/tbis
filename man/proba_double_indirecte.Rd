@@ -2,7 +2,7 @@
 % Please edit documentation in R/proba_double_indirecte.R
 \name{proba_double_indirecte}
 \alias{proba_double_indirecte}
-\title{Calcul de la probabilité d'inclusion double}
+\title{Probabilité d'inclusion double indirecte}
 \usage{
 proba_double_indirecte(liste1, liste2, ...)
 }
@@ -17,7 +17,7 @@ proba_double_indirecte(liste1, liste2, ...)
 
 }
 \description{
-Calcul de la probabilité d'inclusion double
+Probabilité d'inclusion double indirecte
 }
 \examples{
 # calcul de la probabilité d'inclusion double des unités liées c("id1","id6","id12") et c("id2","id5")

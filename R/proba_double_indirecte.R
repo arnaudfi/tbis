@@ -1,6 +1,6 @@
 #probabilité d'inclusion double
 
-#' Calcul de la probabilité d'inclusion double
+#' Probabilité d'inclusion double indirecte
 #'
 #' @param liste1 vecteur des identifiants des unites de dataPop liées a la premiere unite
 #' @param liste2 vecteur des identifiants des unites de dataPop liées a la seconde unite
