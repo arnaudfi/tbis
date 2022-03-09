@@ -3,7 +3,7 @@
 \docType{data}
 \name{population}
 \alias{population}
-\title{BDS generee pour l'exemple}
+\title{Base de sondage generee pour l'exemple}
 \format{
 An object of class \code{data.frame} with 50 rows and 2 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 50 rows and 2 columns.
 population
 }
 \description{
-BDS generee pour l'exemple
+Base de sondage generee pour l'exemple
 }
 \keyword{datasets}

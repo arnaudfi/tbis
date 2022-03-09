@@ -3,7 +3,15 @@
 
 # cette premiere fonction (Martin Chevallier) est utilisee ensuite
 
-# Cr?e une liste en reprenant le nom des objets qui les constitue
+
+#' namedList
+#'
+#' @param ... elements de la liste
+#'
+#' @return liste dont les elements ont les noms des objets composant la liste
+#' @export
+#'
+#' @examples
 namedList <- function(...) {
   L <- list(...)
   snm <- sapply(substitute(list(...)), deparse)[-1]

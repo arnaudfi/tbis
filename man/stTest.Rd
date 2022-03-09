@@ -3,7 +3,7 @@
 \docType{data}
 \name{stTest}
 \alias{stTest}
-\title{Table de strate coherente avec population, genere l'exemple}
+\title{Table de strate coherente avec population, generee pour l'exemple}
 \format{
 An object of class \code{data.frame} with 3 rows and 3 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 3 rows and 3 columns.
 stTest
 }
 \description{
-Table de strate coherente avec population, genere l'exemple
+Table de strate coherente avec population, generee pour l'exemple
 }
 \keyword{datasets}
