@@ -4,14 +4,7 @@
 # cette premiere fonction (Martin Chevallier) est utilisee ensuite
 
 
-#' namedList
-#'
-#' @param ... elements de la liste
-#'
-#' @return liste dont les elements ont les noms des objets composant la liste
-#' @export
-#'
-#' @examples
+
 namedList <- function(...) {
   L <- list(...)
   snm <- sapply(substitute(list(...)), deparse)[-1]
