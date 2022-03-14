@@ -3,7 +3,7 @@
 \docType{data}
 \name{tbis_dataStrate}
 \alias{tbis_dataStrate}
-\title{Table de strate}
+\title{Table de strate exemple}
 \format{
 An object of class \code{data.frame} with 3 rows and 3 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 3 rows and 3 columns.
 tbis_dataStrate
 }
 \description{
-Table de strate
+Table de strate exemple
 }
 \keyword{datasets}

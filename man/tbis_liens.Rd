@@ -3,7 +3,7 @@
 \docType{data}
 \name{tbis_liens}
 \alias{tbis_liens}
-\title{Table de liens entre unitées initiales (idA) et finales (idB)}
+\title{Table de liens entre unitées initiales (idA) et finales (idB) exemple}
 \format{
 An object of class \code{data.frame} with 160 rows and 2 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 160 rows and 2 columns.
 tbis_liens
 }
 \description{
-Table de liens entre unitées initiales (idA) et finales (idB)
+Table de liens entre unitées initiales (idA) et finales (idB) exemple
 }
 \keyword{datasets}

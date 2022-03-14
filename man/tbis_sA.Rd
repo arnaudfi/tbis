@@ -3,7 +3,7 @@
 \docType{data}
 \name{tbis_sA}
 \alias{tbis_sA}
-\title{Exemple d'echantillon initial}
+\title{Echantillon initial exemple}
 \format{
 An object of class \code{data.frame} with 20 rows and 4 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 20 rows and 4 columns.
 tbis_sA
 }
 \description{
-Exemple d'echantillon initial
+Echantillon initial exemple
 }
 \keyword{datasets}

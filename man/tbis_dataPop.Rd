@@ -3,7 +3,7 @@
 \docType{data}
 \name{tbis_dataPop}
 \alias{tbis_dataPop}
-\title{Base de sondage generee pour l'exemple}
+\title{Base de sondage exemple}
 \format{
 An object of class \code{data.frame} with 160 rows and 3 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 160 rows and 3 columns.
 tbis_dataPop
 }
 \description{
-Base de sondage generee pour l'exemple
+Base de sondage exemple
 }
 \keyword{datasets}

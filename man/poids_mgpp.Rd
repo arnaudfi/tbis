@@ -2,7 +2,7 @@
 % Please edit documentation in R/poids_mgpp.R
 \name{poids_mgpp}
 \alias{poids_mgpp}
-\title{Methode generalisee de Partage des poids}
+\title{Methode géneralisée de Partage des poids}
 \usage{
 poids_mgpp(UA, sA, l_ji, id_j, w_j, id_i, aux_j, controles = T, sorties = T)
 }
@@ -44,12 +44,12 @@ La table w_i comporte 5 variables :
 la table teta servira pour calculer les variables zk (utiles pour des traitements type calcul de precision, calage...)
 }
 \description{
-Methode generalisee de Partage des poids
+Methode géneralisée de Partage des poids
 }
 \examples{
 poids_mgpp(UA=tbis_dataPop, sA=tbis_sA, l_ji=tbis_liens, id_j="idA", w_j="poids", id_i="idB", aux_j="CA")
 
 }
 \seealso{
-http://jms-insee.fr/jms2018s24_4/
+\href{http://jms-insee.fr/jms2018s24_4/}{JMS 2018 : La gestion par partage des poids des changements de contour des entreprises dans l’Enquete Sectorielle Annuelle}
 }

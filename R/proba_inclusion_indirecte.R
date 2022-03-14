@@ -1,5 +1,5 @@
 
-#' Probabilite inclusion indirecte
+#' Probabilité d'inclusion simple indirecte
 #'
 #' @description Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre elles et fournit en retour la probabilite d'inclusion indirecte pour un SAS stratifie
 #'

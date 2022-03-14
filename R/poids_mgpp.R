@@ -16,7 +16,7 @@ namedList <- function(...) {
 
 # fonction mgpp
 
-#' Methode generalisee de Partage des poids
+#' Methode géneralisée de Partage des poids
 #'
 #' @param UA base de sondage (variables id_j + aux_j)
 #' @param sA echantillon tire (variables id_j, w_j)
@@ -51,7 +51,8 @@ namedList <- function(...) {
 #' @examples
 #' poids_mgpp(UA=tbis_dataPop, sA=tbis_sA, l_ji=tbis_liens, id_j="idA", w_j="poids", id_i="idB", aux_j="CA")
 #'
-#' @seealso http://jms-insee.fr/jms2018s24_4/
+#' @seealso
+#' \href{http://jms-insee.fr/jms2018s24_4/}{JMS 2018 : La gestion par partage des poids des changements de contour des entreprises dans l’Enquete Sectorielle Annuelle}
 #'
 #'
 poids_mgpp <- function(UA, sA, l_ji, id_j, w_j, id_i, aux_j, controles=T, sorties=T) {

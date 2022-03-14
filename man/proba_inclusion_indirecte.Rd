@@ -2,7 +2,7 @@
 % Please edit documentation in R/proba_inclusion_indirecte.R
 \name{proba_inclusion_indirecte}
 \alias{proba_inclusion_indirecte}
-\title{Probabilite inclusion indirecte}
+\title{Probabilité d'inclusion simple indirecte}
 \usage{
 proba_inclusion_indirecte(
   liste_liees,

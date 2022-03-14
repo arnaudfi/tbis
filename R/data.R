@@ -1,11 +1,11 @@
-#' Base de sondage generee pour l'exemple
+#' Base de sondage exemple
 "tbis_dataPop"
 
-#' Table de strate
+#' Table de strate exemple
 "tbis_dataStrate"
 
-#' Table de liens entre unitées initiales (idA) et finales (idB)
+#' Table de liens entre unitées initiales (idA) et finales (idB) exemple
 "tbis_liens"
 
-#' Exemple d'echantillon initial
+#' Echantillon initial exemple
 "tbis_sA"
