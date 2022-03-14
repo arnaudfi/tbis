@@ -20,13 +20,12 @@ proba_double_indirecte(liste1, liste2, ...)
 Probabilité d'inclusion double indirecte
 }
 \examples{
-# calcul de la probabilité d'inclusion double des unités liées c("id1","id6","id12") et c("id2","id5")
-proba_double_indirecte(c("id1","id6","id12"),c("id2","id5"),
-dataPop = population,
-dataStrate =stTest,
-identifiant = "id",
-nomStrate = "strate",
-population = "N",
-echantillon =  "n")
-
+# calcul de la probabilité d'inclusion double des unités liées c("32","43","111") et c("51","103")
+proba_double_indirecte(c("32","43","111"),c("51","103"),
+                      dataPop = tbis_dataPop,
+                      dataStrate =tbis_dataStrate,
+                      identifiant = "idA",
+                      nomStrate = "strate",
+                      population = "Nh",
+                      echantillon =  "nh")
 }

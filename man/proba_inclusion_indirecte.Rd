@@ -37,11 +37,14 @@ Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre 
 }
 \examples{
 
-### calcul des probas d'inclusion d'une unité liée à id1,id6 et id12
-proba_inclusion_indirecte(c("id1","id6","id12"),
-dataPop = population,dataStrate =stTest,
-identifiant = "id",
- nomStrate = "strate",
- population = "N",
- echantillon =  "n")
+#exemple pour idB==21
+
+
+proba_inclusion_indirecte(c("32","43","111"),
+                         dataPop = tbis_dataPop,
+                         dataStrate =tbis_dataStrate,
+                         identifiant = "idA",
+                         nomStrate = "strate",
+                         population = "Nh",
+                         echantillon =  "nh")
 }
