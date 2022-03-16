@@ -15,4 +15,4 @@ On AUS V3 (INSEE) :
 - Mettez les dans une archive tbis.tar.gz accessible sur AUS (par exemple U:/tbis.tar.gz);
 - Executez install.packages("U:/tbis.tar.gz", repos = NULL, type="source")
 
-Si vous avez accès à V:/Pise-DS, executez install.packages("V:/PISE-DS/note restructurations et compagnie/Mad FonctionsR/tbis.tar.gz", repos = NULL, type="source")
+Si vous avez accès à V:/Pise-DS, vous pouvez plus simplement executer install.packages("V:/PISE-DS/note restructurations et compagnie/Mad FonctionsR/tbis.tar.gz", repos = NULL, type="source")
