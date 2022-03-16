@@ -115,3 +115,5 @@ usethis::use_data(tbis_dataPop)
 usethis::use_data(tbis_dataStrate)
 usethis::use_data(tbis_liens)
 usethis::use_data(tbis_sA)
+
+# j'ajoute cette ligne pour tester git
