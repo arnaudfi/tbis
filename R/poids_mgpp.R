@@ -1,7 +1,7 @@
 # FONCTION POUR CALCULER DES POIDS MGPP
 
 
-# cette premiere fonction (Martin Chevallier) bien pratique est utilisee ensuite
+# cette fonction (Martin Chevallier) bien pratique est utilisee ensuite
 
 
 
