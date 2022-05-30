@@ -28,23 +28,22 @@ poids_mgpp(UA, sA, l_ji, id_j, w_j, id_i, aux_j, controles = T, sorties = T)
 \value{
 2 tables sont produites dans une liste en sortie
 
-La table w_i comporte 5 variables :
-
-* w_i_cl : poids MGPP classiques
-
-* w_i_aux : poids MGPP avec liens ponderes par la variable aux_j
-
-* w_i_cl_exh : vaut w_i_cl, sauf si au moins une unite liee appartient a l'exhaustif (w_i_cl_exh vaut alors 1)
-
-* w_i_aux_exh : vaut w_i_aux, sauf si au moins une unite liee appartient a l'exhaustif (w_i_aux_exh vaut alors 1)
-
-* exh : indicatrice d'appartenance a l'exhaustif : une unite de UB est dans l'exhaustif si au moins une unite qui lui est lie a w_j=1
-
+La table w_i comporte 5 variables :\itemize{
+  \item w_i_cl : poids MGPP classiques
+  \item w_i_aux : poids MGPP avec liens ponderes par la variable aux_j
+  \item w_i_cl_exh : vaut w_i_cl, sauf si au moins une unite liee appartient a l'exhaustif (w_i_cl_exh vaut alors 1)
+  \item w_i_aux_exh : vaut w_i_aux, sauf si au moins une unite liee appartient a l'exhaustif (w_i_aux_exh vaut alors 1)
+  \item exh : indicatrice d'appartenance a l'exhaustif : une unite de UB est dans l'exhaustif si au moins une unite qui lui est lie a w_j=1
+}
 
 la table teta servira pour calculer les variables zk (utiles pour des traitements type calcul de precision, calage...)
 }
 \description{
-Methode géneralisée de Partage des poids
+se limite aux liens de type many to one.
+La fonction gère notamment \itemize{
+  \item Les unités finales exhaustives (au moins un lien avec une unité de la strate exhaustive)
+  \item Les pondérations de liens par une variable quantitative
+}
 }
 \examples{
 poids_mgpp(UA=tbis_dataPop, sA=tbis_sA, l_ji=tbis_liens, id_j="idA", w_j="poids", id_i="idB", aux_j="CA")

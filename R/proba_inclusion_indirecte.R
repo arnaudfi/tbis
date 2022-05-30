@@ -1,7 +1,11 @@
 
 #' Probabilité d'inclusion simple indirecte
 #'
-#' @description Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre elles et fournit en retour la probabilite d'inclusion indirecte pour un SAS stratifie
+#' @description Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre elles et fournit en retour la probabilite d'inclusion indirecte pour un SAS stratifie.
+#'
+#' La fonction \code{\link{proba_double_indirecte}} permet de calculer des probabilités d'inclusion double.
+#'
+#' Pour des jeux de données comportant de nombreux liens, l'execution de \code{\link{proba_indirecte_fast}} devrait être plus rapide (moins de lectures de  tables).
 #'
 #' @param liste_liees vecteur avec identifiants des unités liée dans la table datapop
 #' @param dataPop base de sondage
@@ -11,7 +15,7 @@
 #' @param population variable indiquant le nombre d'unite dans la BDS dans la strate dans dataStrate
 #' @param echantillon variable indiquant le nombre d'unite a tirer dans la strate dans dataStrate
 #'
-#' @return probabilite d'inclusion indirecte de l'unite lie
+#' @return probabilite d'inclusion indirecte de l'unite liée
 #' @export
 #'
 #' @examples
@@ -26,6 +30,9 @@
 #'                          nomStrate = "strate",
 #'                          population = "Nh",
 #'                          echantillon =  "nh")
+#'
+#' @seealso
+#' \href{http://jms-insee.fr/jms2022s30_3/}{JMS 2022 : Utilisation des probabilités d’inclusion exactes pour le sondage indirect en population asymétrique}
 
 
 proba_inclusion_indirecte <- function(liste_liees,dataPop =NULL,dataStrate =NULL ,

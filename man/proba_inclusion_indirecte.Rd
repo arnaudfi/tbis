@@ -30,10 +30,14 @@ proba_inclusion_indirecte(
 \item{echantillon}{variable indiquant le nombre d'unite a tirer dans la strate dans dataStrate}
 }
 \value{
-probabilite d'inclusion indirecte de l'unite lie
+probabilite d'inclusion indirecte de l'unite liée
 }
 \description{
-Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre elles et fournit en retour la probabilite d'inclusion indirecte pour un SAS stratifie
+Cette fonction prend en entree un vecteur d'identifiants d'unités liées entre elles et fournit en retour la probabilite d'inclusion indirecte pour un SAS stratifie.
+
+La fonction \code{\link{proba_double_indirecte}} permet de calculer des probabilités d'inclusion double.
+
+Pour des jeux de données comportant de nombreux liens, l'execution de \code{\link{proba_indirecte_fast}} devrait être plus rapide (moins de lectures de  tables).
 }
 \examples{
 
@@ -47,4 +51,8 @@ proba_inclusion_indirecte(c("32","43","111"),
                          nomStrate = "strate",
                          population = "Nh",
                          echantillon =  "nh")
+
+}
+\seealso{
+\href{http://jms-insee.fr/jms2022s30_3/}{JMS 2022 : Utilisation des probabilités d’inclusion exactes pour le sondage indirect en population asymétrique}
 }

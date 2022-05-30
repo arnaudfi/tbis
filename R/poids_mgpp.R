@@ -18,6 +18,12 @@ namedList <- function(...) {
 
 #' Methode géneralisée de Partage des poids
 #'
+#' @description se limite aux liens de type many to one.
+#' La fonction gère notamment \itemize{
+#'   \item Les unités finales exhaustives (au moins un lien avec une unité de la strate exhaustive)
+#'   \item Les pondérations de liens par une variable quantitative
+#' }
+#'
 #' @param UA base de sondage (variables id_j + aux_j)
 #' @param sA echantillon tire (variables id_j, w_j)
 #' @param l_ji table des liens (variables id_j, id_i) : pour le moment on n'autorise pas que j soit lie a plusieurs i
@@ -30,18 +36,13 @@ namedList <- function(...) {
 #'
 #' @return 2 tables sont produites dans une liste en sortie
 #'
-#' La table w_i comporte 5 variables :
-#'
-#' * w_i_cl : poids MGPP classiques
-#'
-#' * w_i_aux : poids MGPP avec liens ponderes par la variable aux_j
-#'
-#' * w_i_cl_exh : vaut w_i_cl, sauf si au moins une unite liee appartient a l'exhaustif (w_i_cl_exh vaut alors 1)
-#'
-#' * w_i_aux_exh : vaut w_i_aux, sauf si au moins une unite liee appartient a l'exhaustif (w_i_aux_exh vaut alors 1)
-#'
-#' * exh : indicatrice d'appartenance a l'exhaustif : une unite de UB est dans l'exhaustif si au moins une unite qui lui est lie a w_j=1
-#'
+#' La table w_i comporte 5 variables :\itemize{
+#'   \item w_i_cl : poids MGPP classiques
+#'   \item w_i_aux : poids MGPP avec liens ponderes par la variable aux_j
+#'   \item w_i_cl_exh : vaut w_i_cl, sauf si au moins une unite liee appartient a l'exhaustif (w_i_cl_exh vaut alors 1)
+#'   \item w_i_aux_exh : vaut w_i_aux, sauf si au moins une unite liee appartient a l'exhaustif (w_i_aux_exh vaut alors 1)
+#'   \item exh : indicatrice d'appartenance a l'exhaustif : une unite de UB est dans l'exhaustif si au moins une unite qui lui est lie a w_j=1
+#' }
 #'
 #' la table teta servira pour calculer les variables zk (utiles pour des traitements type calcul de precision, calage...)
 #'
